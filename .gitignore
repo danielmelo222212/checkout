@@ -1,0 +1,29 @@
+# Composer dependencies
+vendor/
+composer.lock
+
+# Configuration files (sensitive data) - consider using environment variables or a template
+# config/config.php
+# For now, we will keep config.php tracked as per initial script, but ignore the dummy certificate
+config/certs/efi_certificate.p12
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Uploads - depending on strategy, you might want to ignore user uploads
+# uploads/
+
+# Cache files
+cache/

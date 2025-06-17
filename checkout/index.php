@@ -1,0 +1,1 @@
+<?php // Checkout Area ?>
